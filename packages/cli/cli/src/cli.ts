@@ -30,7 +30,7 @@ import { writeDefinitionForWorkspaces } from "./commands/write-definition/writeD
 import { FERN_CWD_ENV_VAR } from "./cwd";
 import { rerunFernCliAtVersion } from "./rerunFernCliAtVersion";
 import { isURL } from "./utils/isUrl";
-import { loadOpenAPIFromUrl } from "./utils/loadOpenAPIFromUrl";
+import {loadOpenAPIFromUrl} from "../../init/src/loadOpenApiFromUrl";
 
 interface GlobalCliOptions {
     "log-level": LogLevel;
